@@ -1,4 +1,3 @@
-s="Word"
-stringlength=len(s)
-slicedString=s[stringlength: :-1]
-print (slicedString) 
+for i in range(0, 100):
+    if i % 7 == 0:
+        print(i)
